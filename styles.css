@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
+}
+    
+a {
+    text-decoration: underline;
+    color: black;
+}
+
+.bg-img {
+    padding: 200px;
+    background-image: url(./Images/DataFriendlySpacelogo.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    transition: background-color 0.5s ease-in-out;
+}
+
+nav img {
+    width: 50px;
+    margin: 5px 0px 2px 30px;
+}
+
+.section-header h1, 
+.section-header p {
+    padding: 45px 120px 45px 120px;
+    background-color: #34C2DB;
+}
+
+.section-header h1 {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 100;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+}
+
+.section-header p {
+    background-color: #F5F5F5;
+}
+
+.section-header p,
+.services p,
+.footer-cta p,
+.services-list div {
+    line-height: 27px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Arimo', sans-serif;
+}
+
+.services p {
+    background-color: #fff;
+    padding: 45px 120px 45px 120px;
+}
+
+.services img {
+    width: 150px;
+    line-height: 1.6667;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 100px 40px 100px;
+}
+
+.services-list div {
+    padding-bottom: 30px;
+    width: calc((100% - 25%) / 4);
+    margin-right: 20px;
+    margin-left: auto;
+}
+
+
+.services-list span {
+    font-size: 20px;
+    color: #212121;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+
+.footer-cta p,
+footer p {
+    font-family: 'Lato', sans-serif;
+    padding: 35px 120px 35px 120px;
+}
+
+.footer-cta p {
+    background-color: #34C2DB;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .bg-img {
+      padding: 20vw;
+    }
+    
+    nav img {
+      width: 9vw;
+      margin: 1vw 0 0 10vw;
+    }
+  
+    .section-header h1,
+    .section-header p {
+      padding: 10vw 10vw;
+    }
+    
+    .section-header h1 {
+      font-size: 7vw;
+    }
+    
+    .services p {
+      padding: 10vw 10vw;
+    }
+    
+    .services img {
+      width: 40vw;
+      text-align: center;
+    }
+    
+    .services-list {
+      padding: 0 20vw;
+    }
+    
+    .services-list div {
+      width: 100%;
+    }
+    
+    .services-list span {
+      font-size: 5vw;
+      margin-bottom: 10vw;
+    }
+    
+    .footer-cta p,
+    footer p {
+      padding: 5vw 10vw;
+    }
+  }
