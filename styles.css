@@ -106,9 +106,7 @@ small{
 
 @media screen and (max-width: 768px) {
   
-  .bg-img {
-    padding: 20vw;
-  }
+  
   
   nav img {
     width: 9vw;
