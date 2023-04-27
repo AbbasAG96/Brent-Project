@@ -100,6 +100,10 @@ footer p {
 .footer-cta p {
   background-color: #34C2DB;
 }
+small{
+  text-align: center;
+}
+
 @media screen and (max-width: 768px) {
   
   .bg-img {
